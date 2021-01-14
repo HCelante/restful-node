@@ -1,8 +1,8 @@
 {
   "name": "restful-node",
   "version": "1.0.0",
-  "description": "A RESTful API in NodeJs",
-  "main": "server.js",
+  "description": "A RESTful API in Node",
+  "main": "app.ts",
   "scripts": {
     "tsc": "tsc",
     "start": "npm run tsc && node ./dist/app.js",

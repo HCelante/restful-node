@@ -1,4 +1,4 @@
-# Uma API RESTful em Node usando TypeScript e Express
+# Uma simples API RESTful em Node usando TypeScript e Express
 
 ### Para instalar:
 

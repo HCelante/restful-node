@@ -17,7 +17,7 @@
 * Automated Test
 
 
-# Modulos
+# Módulos
 
 * [JWT](https://www.devmedia.com.br/como-o-jwt-funciona/40265) : (JSON Web Token) é um método RCT 7519 padrão da indústria para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web. Esse token é um código em Base64 que armazena objetos JSON com os dados que permitem a autenticação da requisição.
 

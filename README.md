@@ -14,3 +14,4 @@ Conceitos aplicados:
 
 * Clean Code
 * Interface
+* entre outros

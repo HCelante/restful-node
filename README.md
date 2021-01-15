@@ -17,7 +17,7 @@
 * Automated Test
 
 
-# Modulos
+# Módulos
 
 * [JWT](https://www.devmedia.com.br/como-o-jwt-funciona/40265) : (JSON Web Token) é um método RCT 7519 padrão da indústria para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web. Esse token é um código em Base64 que armazena objetos JSON com os dados que permitem a autenticação da requisição.
 
@@ -27,8 +27,12 @@
 
 * [Express](https://expressjs.com/pt-br/) : O Express é um framework para aplicativos web em Node.js, mínimo e flexível, que fornece um conjunto robusto de recursos.
 
+<<<<<<< HEAD
 ## Módulos de Teste
 
 * [Mocha](https://mochajs.org/) : Mocha é uma estrutura de teste de JavaScript.
 
 * [Supertest](https://www.npmjs.com/package/supertest) :  Este módulo fornece uma abstração de alto nível para testar requisições HTTP.
+=======
+* [Supertest](https://www.npmjs.com/package/supertest) :  Este módulo fornece uma abstração de alto nível para testar requisições HTTP.
+>>>>>>> ce7c4b19919b327fcd1d50cd1906b8250963633a

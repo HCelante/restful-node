@@ -6,6 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "start": "npm run tsc && node ./dist/app.js",
+    "dev": "nodemon --watch . --ext ts --exec \"sudo docker-compose build && sudo docker-compose up\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-dev": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register test/**/*.test.ts\""
   },

@@ -2,7 +2,7 @@ import express from 'express';
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 // todo: move to a secure place
-const jwtSecret = 'My!@!Se3cr8tH4sh';
+const jwtSecret = process.env.API_SECRET;
 const tokenExpirationInSeconds = 3600;
 export class AuthController
 {

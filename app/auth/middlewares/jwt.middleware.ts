@@ -2,8 +2,8 @@ import express from 'express';
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 
-// !!! todo: remove-me !!!
-const jwtSecret = 'My!@!Se3cr8tH4sh';
+// !!! remove-me !!!
+const jwtSecret = process.env.API_SECRET;
 
 
 export class JwtMiddleware {
@@ -60,5 +60,5 @@ export class JwtMiddleware {
       return res.status(401).send();
     }
   };
-  
+
 }

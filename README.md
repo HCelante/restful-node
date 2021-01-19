@@ -6,7 +6,7 @@
 
 ### Para executar:
 
-> npm run start
+> npm run dev
 
 
 

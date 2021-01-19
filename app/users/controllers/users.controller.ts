@@ -8,8 +8,7 @@ export class UsersController {
 
     async listUsers(req: express.Request, res: express.Response) {
         const usersService = UsersService.getInstance();
-        var users = await usersService.list(100, 0);
-        users = users ? users : ['nada'];
+        const users = await usersService.list(100, 0);
         res.status(200).send(users);
     }
 

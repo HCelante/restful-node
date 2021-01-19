@@ -1,18 +1,21 @@
 # Uma simples API RESTful em Node usando TypeScript e Express
 
 
-
+## Sem Docker
 ### Para instalar:
 
 > npm install
 
+### Para executar:
 
+> npm run start
+
+## Com Docker
 ### Preparando o Container
 
 > docker-compose build
 
 > docker-compose up
-
 
 ### Para executar:
 

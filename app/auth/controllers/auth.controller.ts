@@ -1,6 +1,7 @@
 import express from 'express';
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
+require('dotenv/config');
 // todo: move to a secure place
 const jwtSecret = process.env.API_SECRET;
 const tokenExpirationInSeconds = 3600;

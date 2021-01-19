@@ -1,10 +1,8 @@
 import express from 'express';
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
-
-// !!! remove-me !!!
+require('dotenv/config');
 const jwtSecret = process.env.API_SECRET;
-
 
 export class JwtMiddleware {
 

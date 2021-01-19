@@ -29,6 +29,7 @@
 * Clean Code
 * Interface
 * Automated Test
+* SOLID
 
 
 # Módulos
